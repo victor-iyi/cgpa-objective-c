@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570E87B71E8A48A400FBAB6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E87B61E8A48A400FBAB6E /* main.m */; };
+		570E87BA1E8A48A400FBAB6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E87B91E8A48A400FBAB6E /* AppDelegate.m */; };
+		570E87BD1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 570E87BB1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodeld */; };
+		570E87C01E8A48A400FBAB6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E87BF1E8A48A400FBAB6E /* ViewController.m */; };
+		570E87C31E8A48A400FBAB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570E87C11E8A48A400FBAB6E /* Main.storyboard */; };
+		570E87C51E8A48A400FBAB6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E87C41E8A48A400FBAB6E /* Images.xcassets */; };
+		570E87C81E8A48A400FBAB6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570E87C61E8A48A400FBAB6E /* LaunchScreen.xib */; };
+		570E87D41E8A48A400FBAB6E /* CGPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 570E87D31E8A48A400FBAB6E /* CGPA_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570E87CE1E8A48A400FBAB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570E87A91E8A48A300FBAB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570E87B01E8A48A300FBAB6E;
+			remoteInfo = "CGPA Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570E87B11E8A48A400FBAB6E /* CGPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570E87B51E8A48A400FBAB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570E87B61E8A48A400FBAB6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		570E87B81E8A48A400FBAB6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		570E87B91E8A48A400FBAB6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		570E87BC1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CGPA_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		570E87BE1E8A48A400FBAB6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		570E87BF1E8A48A400FBAB6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		570E87C21E8A48A400FBAB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570E87C41E8A48A400FBAB6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		570E87C71E8A48A400FBAB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		570E87CD1E8A48A400FBAB6E /* CGPA CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CGPA CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570E87D21E8A48A400FBAB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570E87D31E8A48A400FBAB6E /* CGPA_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGPA_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570E87AE1E8A48A300FBAB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570E87CA1E8A48A400FBAB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570E87A81E8A48A300FBAB6E = {
+			isa = PBXGroup;
+			children = (
+				570E87B31E8A48A400FBAB6E /* CGPA Calculator */,
+				570E87D01E8A48A400FBAB6E /* CGPA CalculatorTests */,
+				570E87B21E8A48A400FBAB6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570E87B21E8A48A400FBAB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570E87B11E8A48A400FBAB6E /* CGPA Calculator.app */,
+				570E87CD1E8A48A400FBAB6E /* CGPA CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570E87B31E8A48A400FBAB6E /* CGPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				570E87B81E8A48A400FBAB6E /* AppDelegate.h */,
+				570E87B91E8A48A400FBAB6E /* AppDelegate.m */,
+				570E87BE1E8A48A400FBAB6E /* ViewController.h */,
+				570E87BF1E8A48A400FBAB6E /* ViewController.m */,
+				570E87C11E8A48A400FBAB6E /* Main.storyboard */,
+				570E87C41E8A48A400FBAB6E /* Images.xcassets */,
+				570E87C61E8A48A400FBAB6E /* LaunchScreen.xib */,
+				570E87BB1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodeld */,
+				570E87B41E8A48A400FBAB6E /* Supporting Files */,
+			);
+			path = "CGPA Calculator";
+			sourceTree = "<group>";
+		};
+		570E87B41E8A48A400FBAB6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				570E87B51E8A48A400FBAB6E /* Info.plist */,
+				570E87B61E8A48A400FBAB6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		570E87D01E8A48A400FBAB6E /* CGPA CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				570E87D31E8A48A400FBAB6E /* CGPA_CalculatorTests.m */,
+				570E87D11E8A48A400FBAB6E /* Supporting Files */,
+			);
+			path = "CGPA CalculatorTests";
+			sourceTree = "<group>";
+		};
+		570E87D11E8A48A400FBAB6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				570E87D21E8A48A400FBAB6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570E87B01E8A48A300FBAB6E /* CGPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570E87D71E8A48A400FBAB6E /* Build configuration list for PBXNativeTarget "CGPA Calculator" */;
+			buildPhases = (
+				570E87AD1E8A48A300FBAB6E /* Sources */,
+				570E87AE1E8A48A300FBAB6E /* Frameworks */,
+				570E87AF1E8A48A300FBAB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGPA Calculator";
+			productName = "CGPA Calculator";
+			productReference = 570E87B11E8A48A400FBAB6E /* CGPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		570E87CC1E8A48A400FBAB6E /* CGPA CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570E87DA1E8A48A400FBAB6E /* Build configuration list for PBXNativeTarget "CGPA CalculatorTests" */;
+			buildPhases = (
+				570E87C91E8A48A400FBAB6E /* Sources */,
+				570E87CA1E8A48A400FBAB6E /* Frameworks */,
+				570E87CB1E8A48A400FBAB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570E87CF1E8A48A400FBAB6E /* PBXTargetDependency */,
+			);
+			name = "CGPA CalculatorTests";
+			productName = "CGPA CalculatorTests";
+			productReference = 570E87CD1E8A48A400FBAB6E /* CGPA CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570E87A91E8A48A300FBAB6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = V.I.C.T.O.R.;
+				TargetAttributes = {
+					570E87B01E8A48A300FBAB6E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					570E87CC1E8A48A400FBAB6E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 570E87B01E8A48A300FBAB6E;
+					};
+				};
+			};
+			buildConfigurationList = 570E87AC1E8A48A300FBAB6E /* Build configuration list for PBXProject "CGPA Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 570E87A81E8A48A300FBAB6E;
+			productRefGroup = 570E87B21E8A48A400FBAB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570E87B01E8A48A300FBAB6E /* CGPA Calculator */,
+				570E87CC1E8A48A400FBAB6E /* CGPA CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570E87AF1E8A48A300FBAB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570E87C31E8A48A400FBAB6E /* Main.storyboard in Resources */,
+				570E87C81E8A48A400FBAB6E /* LaunchScreen.xib in Resources */,
+				570E87C51E8A48A400FBAB6E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570E87CB1E8A48A400FBAB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570E87AD1E8A48A300FBAB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570E87BA1E8A48A400FBAB6E /* AppDelegate.m in Sources */,
+				570E87BD1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodeld in Sources */,
+				570E87C01E8A48A400FBAB6E /* ViewController.m in Sources */,
+				570E87B71E8A48A400FBAB6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570E87C91E8A48A400FBAB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570E87D41E8A48A400FBAB6E /* CGPA_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570E87CF1E8A48A400FBAB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570E87B01E8A48A300FBAB6E /* CGPA Calculator */;
+			targetProxy = 570E87CE1E8A48A400FBAB6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		570E87C11E8A48A400FBAB6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570E87C21E8A48A400FBAB6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570E87C61E8A48A400FBAB6E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570E87C71E8A48A400FBAB6E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570E87D51E8A48A400FBAB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		570E87D61E8A48A400FBAB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570E87D81E8A48A400FBAB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CGPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		570E87D91E8A48A400FBAB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CGPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		570E87DB1E8A48A400FBAB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGPA CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGPA Calculator.app/CGPA Calculator";
+			};
+			name = Debug;
+		};
+		570E87DC1E8A48A400FBAB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGPA CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGPA Calculator.app/CGPA Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570E87AC1E8A48A300FBAB6E /* Build configuration list for PBXProject "CGPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570E87D51E8A48A400FBAB6E /* Debug */,
+				570E87D61E8A48A400FBAB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570E87D71E8A48A400FBAB6E /* Build configuration list for PBXNativeTarget "CGPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570E87D81E8A48A400FBAB6E /* Debug */,
+				570E87D91E8A48A400FBAB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		570E87DA1E8A48A400FBAB6E /* Build configuration list for PBXNativeTarget "CGPA CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570E87DB1E8A48A400FBAB6E /* Debug */,
+				570E87DC1E8A48A400FBAB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		570E87BB1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				570E87BC1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodel */,
+			);
+			currentVersion = 570E87BC1E8A48A400FBAB6E /* CGPA_Calculator.xcdatamodel */;
+			path = CGPA_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 570E87A91E8A48A300FBAB6E /* Project object */;
+}
